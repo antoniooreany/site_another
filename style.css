@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic&subset=latin,cyrillic);
+
+body {
+/*    background-color: #999999;*/
+/*    background-image: url(images/18.jpg);*/
+/*    background-repeat: repeat;*/
+/*    background-attachment: scroll;*/
+/*    background-position: 100px 100px;*/
+    background: #999999 url(images/18.jpg) repeat-x top left
+}
+
+/* Paragraphs decor */
+p {color:aqua;
+    font-family: inherit;
+    font-size: 24px
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.strong-red {
+    font-weight: bolder;
+    color: rgba(39, 255, 0, 0.5);
+    margin-top: 400px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    word-spacing: 50px;
+    line-height: 30px;
+    font-family: 'Cuprum', sans-serif;
+    
+    
+    
+            
+}
+.light-blue {
+    font-weight: lighter;
+    color: blue;
+}
